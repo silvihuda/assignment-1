@@ -16,7 +16,6 @@ const displayCategories = (categories) =>{
    const btn = document.createElement('button');
    btn.innerText =category;
   btn.addEventListener('click', () => {
-    console.log("Clicked category:", category); // <--- debug
     loadProductsByCategories(category);
 });
    btn.classList = "btn btn-primary btn-outline rounded-2xl";
