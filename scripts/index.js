@@ -23,7 +23,7 @@ const displayTrendingProducts = (products) =>{
                             <span>${trendProduct.rating.rate}</span> <span>(${trendProduct.rating.count})</span>
                         </div>
                         </div>
-                        <h2 class="text-xl font-bold">${trendProduct.title}</h2>
+                        <h2 class="text-xl font-bold truncate">${trendProduct.title}</h2>
                         <p class="font-bold text-xl">$${trendProduct.price}</p>
                         <div class="flex justify-between text-2xl mt-6">
                             <button class="btn p-6 rounded-xl"><i class="fa-regular fa-eye"></i>Details</button>

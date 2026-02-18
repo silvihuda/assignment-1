@@ -45,7 +45,7 @@ const displayAllProducts = (products) =>{
                             <span>${product.rating.rate}</span> <span>(${product.rating.count})</span>
                         </div>
                         </div>
-                        <h2 class="text-xl font-bold">${product.title}</h2>
+                        <h2 class="text-xl font-bold truncate">${product.title}</h2>
                         <p class="font-bold text-xl">$${product.price}</p>
                         <div class="flex justify-between text-2xl mt-6">
                             <button class="btn p-6 rounded-xl"><i class="fa-regular fa-eye"></i>Details</button>
@@ -81,7 +81,7 @@ const displayProductsByCategories = (products)=>{
                             <span>${product.rating.rate}</span> <span>(${product.rating.count})</span>
                         </div>
                         </div>
-                        <h2 class="text-xl font-bold">${product.title}</h2>
+                        <h2 class="text-xl font-bold truncate">${product.title}</h2>
                         <p class="font-bold text-xl">$${product.price}</p>
                         <div class="flex justify-between text-2xl mt-6">
                             <button class="btn p-6 rounded-xl"><i class="fa-regular fa-eye"></i>Details</button>
