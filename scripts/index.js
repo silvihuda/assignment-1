@@ -26,7 +26,7 @@ const displayTrendingProducts = (products) =>{
                         <h2 class="text-xl font-bold truncate">${trendProduct.title}</h2>
                         <p class="font-bold text-xl">$${trendProduct.price}</p>
                         <div class="flex justify-between text-2xl mt-6">
-                            <button class="btn p-6 rounded-xl"><i class="fa-regular fa-eye"></i>Details</button>
+                            <button onclick="loadProductDetails(${trendProduct.id})" class="btn p-6 rounded-xl"><i class="fa-regular fa-eye"></i>Details</button>
                             <button class="btn bg-blue-800 text-white p-6 rounded-xl"><i class="fa-solid fa-cart-shopping "></i>Add</button>
                         </div>
                     </div>
